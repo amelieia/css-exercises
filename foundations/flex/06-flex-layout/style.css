@@ -24,3 +24,58 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+a {
+  text-decoration: none;
+  color: #9f9f9f; /* override default link color */
+}
+
+/* states for links */
+a:visited {
+  color: #333333;
+}
+
+a:hover, a:focus {
+  color: #393d3f;
+}
+
+.global-nav, .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.footer {
+  background-color:#eeeeee;
+}
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+  padding: 0px;
+  margin-left: 24px;
+}
+
+.right-links {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  list-style: none;
+  padding: 0px;
+  margin-right: 24px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-content: space-between;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
